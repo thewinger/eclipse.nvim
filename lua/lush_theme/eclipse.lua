@@ -133,7 +133,7 @@ local theme = lush(function()
     SpellLocal   { gui = undercurl, sp = red }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare    { gui = undercurl, sp = orange }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
     StatusLine   { fg = fg0, bg = bg0 }, -- status line of current window
-    StatusLineNC { fg = bg3, bg = bg0 }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    StatusLineNC { fg = magenta, bg = bg0 }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine      { fg = bg1, bg = fg0 }, -- tab pages line, not active tab page label
     TabLineFill  { fg = fg0, bg = bg1 }, -- tab pages line, where there are no labels
     TabLineSel   { fg = fg0, bg = red }, -- tab pages line, active tab page label
