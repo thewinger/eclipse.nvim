@@ -6,8 +6,8 @@ local eclipse = {
   bg3 = '#6C6F93',
 
   fg0 = '#d5d8da',
-  fg1 = '#A8B0B5',
-  fg2 = '#d2d4de',
+  fg1 = '#d2d4de',
+  fg2 = '#A8B0B5',
 
   black = '#1C1E26',
   white = '#FDF0ED',

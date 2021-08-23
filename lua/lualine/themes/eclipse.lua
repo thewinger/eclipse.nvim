@@ -4,8 +4,8 @@ local colors = require('colors')
 return {
   normal = {
     a = {bg = colors.fg0, fg = colors.black, gui = colors.bold},
-    b = {bg = colors.bg2, fg = colors.fg1},
-    c = {bg = colors.bg1, fg = colors.fg1},
+    b = {bg = colors.bg2, fg = colors.white},
+    c = {bg = colors.bg1, fg = colors.white},
   },
   insert = {
     a = {bg = colors.blue, fg = colors.black, gui = colors.bold},

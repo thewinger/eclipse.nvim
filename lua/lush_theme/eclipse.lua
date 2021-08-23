@@ -53,8 +53,6 @@ local bg2 = eclipse.bg2
 local bg3 = eclipse.bg3
 
 local fg0 = eclipse.fg0
-local fg1 = eclipse.fg1
-local fg2 = eclipse.fg2
 
 local black = eclipse.black
 local white = eclipse.white
@@ -134,11 +132,11 @@ local theme = lush(function()
     SpellCap     { gui = undercurl, sp = blue }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal   { gui = undercurl, sp = red }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare    { gui = undercurl, sp = orange }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
-    StatusLine   { fg = fg2, bg = bg0 }, -- status line of current window
+    StatusLine   { fg = fg0, bg = bg0 }, -- status line of current window
     StatusLineNC { fg = bg3, bg = bg0 }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
-    TabLine      { fg = bg1, bg = fg2 }, -- tab pages line, not active tab page label
-    TabLineFill  { fg = fg2, bg = bg1 }, -- tab pages line, where there are no labels
-    TabLineSel   { fg = fg2, bg = red }, -- tab pages line, active tab page label
+    TabLine      { fg = bg1, bg = fg0 }, -- tab pages line, not active tab page label
+    TabLineFill  { fg = fg0, bg = bg1 }, -- tab pages line, where there are no labels
+    TabLineSel   { fg = fg0, bg = red }, -- tab pages line, active tab page label
     Title        { fg = blue }, -- titles for output from ":set all", ":autocmd" etc.
     Visual       { fg = yellow, bg = bg2 }, -- Visual mode selection
     -- VisualNOS    { }, -- Visual mode selection when vim is "Not Owning the Selection".
