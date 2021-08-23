@@ -28,8 +28,8 @@ return {
     c = {bg = colors.bg1, fg = colors.white}
   },
   inactive = {
-    a = {bg = colors.bg0, fg = colors.bg2, gui = colors.bold},
-    b = {bg = colors.bg0, fg = colors.bg2},
-    c = {bg = colors.bg0, fg = colors.bg2}
+    a = {bg = colors.bg0, fg = colors.bg3, gui = colors.bold},
+    b = {bg = colors.bg0, fg = colors.bg3},
+    c = {bg = colors.bg0, fg = colors.bg3}
   }
 }
