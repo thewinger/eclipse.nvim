@@ -1,4 +1,4 @@
-local colors = require('lush_theme.eclipse')
+local colors = require('colors')
 
 --LuaFormatter on
 return {

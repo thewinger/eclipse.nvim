@@ -43,35 +43,33 @@
 --  `:lua require('lush').ify()`
 
 local lush = require('lush')
-local hsl = lush.hsl
+-- local hsl = lush.hsl
+local eclipse = require('colors')
 
----------- COLOR PALETTE ----------
-local bg0 = '#16161c'
-local bg1 = '#232530'
-local bg2 = '#2E303E'
-local bg3 = '#6C6F93'
 
-local fg0 = '#d5d8da'
-local fg1 = '#A8B0B5'
-local fg2 = '#d2d4de'
+local bg0 = eclipse.bg0
+local bg1 = eclipse.bg1
+local bg2 = eclipse.bg2
+local bg3 = eclipse.bg3
 
-local black = '#1C1E26'
-local white = '#FDF0ED'
-local red = '#e95678'
-local green = '#09F7a0'
-local yellow = '#fab795'
-local blue = '#26bbd9'
-local magenta = '#ee64ac'
-local cyan = '#59e3e3'
-local orange = '#F09383'
+local fg0 = eclipse.fg0
+local fg1 = eclipse.fg1
+local fg2 = eclipse.fg2
 
-local  bold = "bold"
-local  italic = "italic"
-local  underline = "underline"
-local  undercurl = "undercurl"
-local  bold_italic = "bold italic"
-local  bold_underline = "bold underline"
-local  italic_underline = "italic underline"
+local black = eclipse.black
+local white = eclipse.white
+local red = eclipse.red
+local green = eclipse.green
+local yellow = eclipse.yellow
+local blue = eclipse.blue
+local magenta = eclipse.magenta
+local cyan = eclipse.cyan
+local orange = eclipse.orange
+
+local bold = eclipse.bold
+local italic = eclipse.italic
+local underline = eclipse.underline
+local undercurl = eclipse.undercurl
 
 -- theme settings
 
