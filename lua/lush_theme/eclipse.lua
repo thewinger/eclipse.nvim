@@ -315,6 +315,8 @@ local theme = lush(function()
     TelescopePromptPrefix { fg = red },
     TelescopePrompt { TelescopeNormal },
 
+    ----- LSPSaga -----
+    LspSagaLightBulb { fg = yellow },
 
 
   }
