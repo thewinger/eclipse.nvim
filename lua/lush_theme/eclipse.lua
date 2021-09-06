@@ -103,7 +103,7 @@ local theme = lush(function()
     -- TermCursor   { }, -- cursor in a focused terminal
     -- TermCursorNC { }, -- cursor in an unfocused terminal
     ErrorMsg     { fg = red }, -- error messages on the command line
-    VertSplit    { fg = bg0, bg = bg0 }, -- the column separating vertically split windows
+    VertSplit    { fg = fg2, bg = bg0 }, -- the column separating vertically split windows
     Folded       { fg = bg3, bg = bg0 }, -- line used for closed folds
     FoldColumn   { Folded }, -- 'foldcolumn'
     SignColumn   { fg = bg3, bg = bg0 }, -- column where |signs| are displayed
