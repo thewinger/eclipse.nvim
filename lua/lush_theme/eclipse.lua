@@ -53,6 +53,7 @@ local bg2 = eclipse.bg2
 local bg3 = eclipse.bg3
 
 local fg0 = eclipse.fg0
+local fg2 = eclipse.fg2
 
 local black = eclipse.black
 local white = eclipse.white
