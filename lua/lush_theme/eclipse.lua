@@ -124,7 +124,7 @@ local theme = lush(function()
     PmenuSel     { fg = black, bg = red }, -- Popup menu: selected item.
     PmenuSbar    { bg = bg3 }, -- Popup menu: scrollbar.
     PmenuThumb   { bg = bg0 }, -- Popup menu: Thumb of the scrollbar.
-    FloatBorder  { fg = fg0 }, -- Float borders
+--    FloatBorder  { fg = fg0 }, -- Float borders
     Question     { fg = green }, -- |hit-enter| prompt and yes/no questions
     QuickFixLine { fg = black, bg = cyan }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     Search       { fg = black, bg = green }, -- Last search pattern highlighting (see 'hlsearch').  Also used for similar items that need to stand out.
