@@ -322,7 +322,7 @@ local theme = lush(function()
 
     ----- NVIM-CMP -----
     CmpItemKind { fg = magenta },
-    CmpItemMenu { Comment }
+    CmpItemMenu { Comment },
 
   }
 end)
