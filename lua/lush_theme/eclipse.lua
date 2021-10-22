@@ -320,6 +320,9 @@ local theme = lush(function()
     ----- LSPSaga -----
     LspSagaLightBulb { fg = yellow },
 
+    ----- NVIM-CMP -----
+    CmpItemKind { fg = magenta },
+    CmpItemMenu { Comment }
 
   }
 end)
