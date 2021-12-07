@@ -212,10 +212,10 @@ local theme = lush(function()
     LspReferenceRead                     { LspReferenceText }, -- used for highlighting "read" references
     LspReferenceWrite                    { LspReferenceText }, -- used for highlighting "write" references
 
-    LspDiagnosticsDefaultError           { fg = red }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
-    LspDiagnosticsDefaultWarning         { fg = orange }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
-    LspDiagnosticsDefaultInformation     { fg = blue }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
-    LspDiagnosticsDefaultHint            { fg = cyan }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    DiagnosticsSignError                 { fg = red }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    DiagnosticsSignWarn                  { fg = orange }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    DiagnosticsSignInfo                  { fg = blue }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    DiagnosticsSignHint                  { fg = cyan }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
 
     -- LspDiagnosticsVirtualTextError       { }, -- Used for "Error" diagnostic virtual text
     -- LspDiagnosticsVirtualTextWarning     { }, -- Used for "Warning" diagnostic virtual text
