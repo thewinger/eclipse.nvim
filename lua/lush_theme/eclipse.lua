@@ -215,11 +215,6 @@ local theme = lush(function()
 		DiagnosticsSignInfo({ fg = blue }), -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
 		DiagnosticsSignHint({ fg = cyan }), -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
 
-		-- LspDiagnosticsVirtualTextError       { }, -- Used for "Error" diagnostic virtual text
-		-- LspDiagnosticsVirtualTextWarning     { }, -- Used for "Warning" diagnostic virtual text
-		-- LspDiagnosticsVirtualTextInformation { }, -- Used for "Information" diagnostic virtual text
-		-- LspDiagnosticsVirtualTextHint        { }, -- Used for "Hint" diagnostic virtual text
-
 		LspDiagnosticsUnderlineError({ fg = red, gui = underline }), -- Used to underline "Error" diagnostics
 		LspDiagnosticsUnderlineWarning({ fg = orange, gui = underline }), -- Used to underline "Warning" diagnostics
 		LspDiagnosticsUnderlineInformation({ fg = blue, gui = underline }), -- Used to underline "Information" diagnostics
@@ -326,6 +321,10 @@ local theme = lush(function()
 
 		----- LSPSaga -----
 		LspFloatWinBorder({ FloatBorder }),
+    DiagnosticError({ DiagnosticsSignError })
+    DiagnosticWarning({ DiagnosticsSignWarn })
+    DiagnosticInformation({ DiagnosticsSignInfo })
+    DiagnosticHint({ DiagnosticsSignHint })
 	}
 end)
 
