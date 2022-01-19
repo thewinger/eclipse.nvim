@@ -321,13 +321,17 @@ local theme = lush(function()
 
 		----- LSPSaga -----
 		LspFloatWinBorder({ bg = cyan, fg = cyan }),
-		LspSagaHoverBorder({ fg = fg0 }),
-		LineDiagTuncateLine({ Normal }),
-		DiagnosticTruncateLine({ Normal }),
-		DiagnosticError({ DiagnosticsSignError }),
-		DiagnosticWarning({ DiagnosticsSignWarn }),
-		DiagnosticInformation({ DiagnosticsSignInfo }),
-		DiagnosticHint({ DiagnosticsSignHint }),
+		LspSagaHoverBorder({ bg = cyan, fg = cyan }),
+		LineDiagTuncateLine({ bg = cyan, fg = cyan }),
+		DiagnosticTruncateLine({ bg = cyan, fg = cyan }),
+		DiagnosticError({ bg = cyan, fg = cyan }),
+		DiagnosticWarning({ bg = cyan, fg = cyan }),
+		DiagnosticInformation({ bg = cyan, fg = cyan }),
+		DiagnosticHint({ bg = cyan, fg = cyan }),
+		-- DiagnosticError({ DiagnosticsSignError }),
+		-- DiagnosticWarning({ DiagnosticsSignWarn }),
+		-- DiagnosticInformation({ DiagnosticsSignInfo }),
+		-- DiagnosticHint({ DiagnosticsSignHint }),
 	}
 end)
 
