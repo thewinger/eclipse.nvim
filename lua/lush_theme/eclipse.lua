@@ -320,11 +320,13 @@ local theme = lush(function()
 		IndentBlanklineChar({ Comment }),
 
 		----- LSPSaga -----
-		LspFloatWinBorder({ FloatBorder }),
-    DiagnosticError({ DiagnosticsSignError })
-    DiagnosticWarning({ DiagnosticsSignWarn })
-    DiagnosticInformation({ DiagnosticsSignInfo })
-    DiagnosticHint({ DiagnosticsSignHint })
+		LspFloatWinBorder({ fg = fg0 }),
+		LineDiagTuncateLine({ Normal }),
+		DiagnosticTruncateLine({ Normal }),
+		DiagnosticError({ DiagnosticsSignError }),
+		DiagnosticWarning({ DiagnosticsSignWarn }),
+		DiagnosticInformation({ DiagnosticsSignInfo }),
+		DiagnosticHint({ DiagnosticsSignHint }),
 	}
 end)
 
