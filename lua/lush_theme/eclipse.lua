@@ -320,7 +320,8 @@ local theme = lush(function()
 		IndentBlanklineChar({ Comment }),
 
 		----- LSPSaga -----
-		LspFloatWinBorder({ fg = fg0 }),
+		LspFloatWinBorder({ bg = cyan, fg = cyan }),
+    LspSagaHoverBorder({ fg = fg0 })
 		LineDiagTuncateLine({ Normal }),
 		DiagnosticTruncateLine({ Normal }),
 		DiagnosticError({ DiagnosticsSignError }),
