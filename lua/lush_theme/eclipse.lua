@@ -43,7 +43,6 @@
 --  `:lua require('lush').ify()`
 
 local lush = require("lush")
--- local hsl = lush.hsl
 local eclipse = require("colors")
 
 local bg0 = eclipse.bg0
