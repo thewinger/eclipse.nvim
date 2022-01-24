@@ -344,6 +344,7 @@ local theme = lush(function()
     typescriptMessage ({ Normal }),
     typescriptNull ({ Constant }),
     typescriptParens ({ Normal }),
+    tsxTag ({ Statement })
 	}
 end)
 
