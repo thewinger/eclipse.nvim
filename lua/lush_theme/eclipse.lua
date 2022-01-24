@@ -344,7 +344,8 @@ local theme = lush(function()
     typescriptMessage ({ Normal }),
     typescriptNull ({ Constant }),
     typescriptParens ({ Normal }),
-
+	}
+end)
 
 -- return our parsed theme for extension or use else where.
 return theme
