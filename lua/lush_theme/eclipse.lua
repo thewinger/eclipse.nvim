@@ -332,8 +332,19 @@ local theme = lush(function()
 		-- DiagnosticWarning({ DiagnosticsSignWarn }),
 		-- DiagnosticInformation({ DiagnosticsSignInfo }),
 		-- DiagnosticHint({ DiagnosticsSignHint }),
-	}
-end)
+
+    ----- Typescript -----
+    typescriptAjaxMethods ({ Normal }),
+    typescriptBraces ({ Normal }),
+    typescriptEndColons ({ Normal }),
+    typescriptFuncKeyword ({ Statement }),
+    typescriptGlobalObjects ({ Statement }),
+    typescriptHtmlElemProperties ({ Normal }),
+    typescriptIdentifier ({ Statement }),
+    typescriptMessage ({ Normal }),
+    typescriptNull ({ Constant }),
+    typescriptParens ({ Normal }),
+
 
 -- return our parsed theme for extension or use else where.
 return theme
