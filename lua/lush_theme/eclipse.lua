@@ -333,18 +333,18 @@ local theme = lush(function()
 		-- DiagnosticInformation({ DiagnosticsSignInfo }),
 		-- DiagnosticHint({ DiagnosticsSignHint }),
 
-    ----- Typescript -----
-    typescriptAjaxMethods ({ Normal }),
-    typescriptBraces ({ Normal }),
-    typescriptEndColons ({ Normal }),
-    typescriptFuncKeyword ({ Statement }),
-    typescriptGlobalObjects ({ Statement }),
-    typescriptHtmlElemProperties ({ Normal }),
-    typescriptIdentifier ({ Statement }),
-    typescriptMessage ({ Normal }),
-    typescriptNull ({ Constant }),
-    typescriptParens ({ Normal }),
-    tsxTag ({ fg=magenta, gui=bold  })
+		----- Typescript -----
+		typescriptAjaxMethods({ Normal }),
+		typescriptBraces({ Normal }),
+		typescriptEndColons({ Normal }),
+		typescriptFuncKeyword({ Statement }),
+		typescriptGlobalObjects({ Statement }),
+		typescriptHtmlElemProperties({ Normal }),
+		typescriptIdentifier({ Statement }),
+		typescriptMessage({ Normal }),
+		typescriptNull({ Constant }),
+		typescriptParens({ Normal }),
+		tsxTag({ fg = magenta, gui = italic }),
 	}
 end)
 
